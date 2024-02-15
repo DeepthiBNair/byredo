@@ -1,0 +1,489 @@
+body{
+    margin: 0%;
+}
+.bar{
+    display: grid;
+    background-color:white;
+    height: 60px;
+    grid-template-columns: 300px 1fr 150px;
+    position: fixed;
+    z-index: 10;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    
+
+
+}
+.left{
+    margin-top: 18px;
+    margin-bottom:16px;
+    display: grid;
+    align-items: center;
+    margin-left: -125px;
+
+
+}
+.middle{
+    display:flex;
+    flex-direction: row;
+    margin-top: 18px;
+    margin-bottom:16px;
+    justify-content: center;
+    margin-left: -60px;
+
+}
+.right{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 18px;
+    margin-bottom: 16px;
+
+}
+.img{
+    height: 27px;
+    width: 100%;
+}.search-logo{
+    
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+
+}
+.person-logo{
+    
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+    
+
+}
+.cart-logo{
+    
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+}
+.logo{
+    width: 21px;
+    height: 21px;
+    margin-left:0%;
+    margin-right: 0%;
+    }
+    
+
+
+.m1{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    align-items: center;
+    font-size: 19px;
+    font-family:Helvetica, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.div-2{
+    height: 603px;
+    background-color: blueviolet;
+    cursor: pointer;
+    margin-top: 50px;
+    position: relative;
+
+}
+.ani{
+    height: 603px;
+    width: 100%;
+    
+}
+.t{
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    font-family:Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    
+    cursor: pointer;
+
+}
+.t1{
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    font-family:Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.div-3{
+    height: 450px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.perfume-image1{
+background-color: blue;
+position: relative;
+}
+.text2{
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    font-family:Helvetica, sans-serif;
+    font-size: 14px;
+    
+    cursor: pointer;
+
+}
+.text2-2{
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    font-family:Helvetica, sans-serif;
+    font-size: 14px;
+
+    cursor: pointer;
+
+
+}
+.perfume-image2{
+    background-color: deeppink;
+    position: relative;
+
+}
+.text3{
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    font-family:Helvetica, sans-serif;
+    font-size: 14px;
+}
+.text3-3{
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    font-family:Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+.perfume-image3{
+    background-color: dodgerblue;
+    position: relative;
+
+}
+.text4{
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    font-family:Helvetica, sans-serif;
+    font-size: 14px;
+
+
+}
+.text4-4{
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    font-family:Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+.perfume-image{
+    position: relative;
+
+}
+.text1{
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    font-family:Helvetica, sans-serif;
+    font-size: 14px;
+
+
+}
+.text1-1{
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    font-family:Helvetica, sans-serif;
+    font-size: 14px;
+
+
+}
+.p1{
+    height: 100%;
+    width: 100%;
+
+}
+.div-4{
+    height: 590px;
+    background-color: blueviolet;
+    display: grid;
+    position: relative;
+    cursor: pointer;
+
+}
+.sholder{
+    height: 590px;
+    width: 100%;
+}
+.text5-5{
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    font-family:Helvetica, sans-serif;
+    font-size: 14px;
+
+    color: white;
+    cursor: pointer;
+}
+.text5-6{
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    font-family:Helvetica, sans-serif;
+    font-size: 14px;
+
+    color: white;
+    cursor: pointer;
+
+}
+.div-5{
+    height: 450px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.div-6{
+    height: 590px;
+    background-color: blueviolet;
+    display: grid;
+    position: relative;
+
+    cursor: pointer;
+}
+.div-7{
+    background-color:white;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.l1{
+background-color: white;
+margin-top: 20px;
+}
+.l2{
+background-color:white;
+
+}
+.l3{
+background-color: white;
+}
+.l4{
+background-color: white;
+}
+ul{
+    list-style: none;
+}
+li{
+    line-height: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family:Helvetica, sans-serif;
+
+}
+li.c::before {
+    content: "- ";
+
+}
+.p{
+    font-size: 20px;;
+}
+.head{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family:  Helvetica, sans-serif;
+}
+.sub{
+    font-size: 12px;
+    margin-bottom: 0px;
+    font-family:  Helvetica, sans-serif;
+}
+.subsub{
+    font-size: 10px;
+    font-family:Helvetica, sans-serif;
+}
+.searchbbar{
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: gray;
+    width: 204px;
+    height: 41px;
+    display: inline;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.searchbbar:focus{
+    outline: none;
+}
+.butn{
+width: 40px;
+height: 40px;
+background-color: black;
+font-size: 18px;
+color: white;
+font-weight: bold;
+border-width: 2px;
+border-style: solid;
+margin-left: 15px;
+cursor: pointer;
+margin-top: -6px;
+
+}
+.swith-butn{
+    height: 55px;
+    width: 400px;
+
+}
+.div-8{
+    height: 60px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto 100px;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.blogo{
+    background-color:white;
+    margin-top: 10px;
+    font-size: 12px;
+    margin-top: 32px;
+}
+.social{
+    display: grid;
+    grid-template-columns: 50px 50px;
+}
+.list1{
+    height: 39px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.myselect{
+    font-size: 13px;
+    height: 30px;
+    width:250px;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 1px;
+    
+
+}
+.myselect:focus{
+    outline: none;
+}
+.frnce-flag{
+    width: 30px;
+    height: 20px;
+    margin-top: 8px;
+    flex: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.list2{
+    height: 39px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 50px;
+    margin-top: 20px;
+}
+.account{
+    display: inline;
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+.man{
+width: 12px;
+height: 12px;
+cursor: pointer;
+margin-bottom: 0px;
+}
+.logo5{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.testacount{
+    margin-left: 45px;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-family:Helvetica, sans-serif;
+
+    cursor: pointer;
+}
+.custemercare{
+    font-size: 14px;
+    margin-left: 30px;
+    font-family:Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.logo6{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    margin-top: 0px;
+}
+.logo7{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    
+}
+.testacount1{
+    margin-left: 45px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family:Helvetica, sans-serif;
+
+}
+.logo8{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.icon1{
+    height: 40px;
+    width: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+}
